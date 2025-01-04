@@ -6,6 +6,5 @@
 
 ## 用法
 1. 您可以初始化LLM.py中的myLLM类, 传入模型路径、分词器路径、并定义是否联网(website_search参数);
-![图片1](/figure/3.png)
-3. 进一步使用`set_system`方法定义大模型的角色;
+2. 进一步使用`set_system`方法定义大模型的角色;
 4. 调用`stream_chat`方法, 传入query就可以使用啦。
